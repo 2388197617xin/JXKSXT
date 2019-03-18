@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JXKSXT.iml" filepath="$PROJECT_DIR$/JXKSXT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Junit/Junit.iml" filepath="$PROJECT_DIR$/Junit/Junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebRoot/WebRoot.iml" filepath="$PROJECT_DIR$/WebRoot/WebRoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jxksxt.iml" filepath="$PROJECT_DIR$/jxksxt.iml" />
     </modules>
   </component>
 </project>

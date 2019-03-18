@@ -139,10 +139,10 @@ ul.nav.navbar-nav li a.active {
     color: #fff;
 }
 
-.grid__item.color-11:hover {
+/*.grid__item.color-11:hover {
     box-sizing: 0;
     border-top: 0 !important;
-}
+}*/
 
 /*--slider end here--*/
 .banner {
@@ -1691,10 +1691,10 @@ div#portfolio {
     color: #FFD670;
 }
 
-.b-animate img {
+/*.b-animate img {
 
     display: -webkit-inline-box;
-}
+}*/
 
 /* lt-ie9 */
 .b-animate-go:hover .b-animate {
@@ -1720,7 +1720,7 @@ div#portfolio {
     top: -152px;
     width: 290px;
     height: 219px;
-    background: rgba(0, 89, 142, 0.58) url(../images/zoom-icon.png) center center no-repeat;
+    background: rgba(0, 89, 142, 0.58) url(../images/icon2.png) center center no-repeat;
     cursor: pointer;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
@@ -3076,3 +3076,4 @@ div#portfoliolist {
             font-size: 2em;
         }
     }
+}

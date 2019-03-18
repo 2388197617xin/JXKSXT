@@ -5,11 +5,27 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" href="/Views/Exam/AmazeUI-2.5.2/assets/css/amazeui.css">
+		<link rel="stylesheet" href="/Views/Admin/css/login.css">
 		<script src="/Views/Exam/jquery-2.1.4/jquery.min.js"></script>
 		<script src="/Views/Exam/AmazeUI-2.5.2/assets/js/amazeui.js"></script>
+		<style type="text/css">
+			body{
+				background-image: url(/Views/Exam/img/background.jpg);
+				background-size:cover;
+			}
+		</style>
 	</head>
 
 	<body>
+	<div id="login_top">
+		<div id="welcome">
+			欢迎使用驾校考试系统
+		</div>
+		<div id="back">
+			<a href="/Views/Home/index.html">返回首页</a>
+
+		</div>
+	</div>
 		<script>
 			$(document).ready(function(){
 				$.ajax({
@@ -33,14 +49,11 @@
 			})
 		</script>
 		<fieldset class="am-center" style="margin-top: 20px; width: 60%; border: 1px salmon solid;">
-			<a href="/Views/Home/index.html"> 返回首页 </a>
 			<legend>电子准考证</legend>
 			<div class="am-tabs" data-am-tabs>
-				<ul class="am-tabs-nav am-nav am-nav-tabs">
-					<li class="am-active"><a href="#tab1"> 学员信息 </a></li>
-					<li><a href="#tab2"> 考试须知 </a></li>
-					<li><a href="#tab3"> 考试纪律 </a></li>
-				</ul>
+
+<!--					<li class="am-active"><a > 学员信息 </a></li>-->
+
 
 				<style>
 					p {
@@ -118,7 +131,7 @@
 							<div id="jd" class="am-progress-bar am-progress-bar-secondary" style="width: 0%"></div>
 						</div>
 					</div>
-					<div class="am-tab-panel am-fade" id="tab2">
+					<!--<div class="am-tab-panel am-fade" id="tab2">
 						<span>
 						一、考试开始前15分钟考生凭学生证和有效身份证件（身份证等）进入规定考场对号入座，并将有效证件放在考桌左上角，以便监考人员查验。考试开始指令发出后，考生才能开始答卷。</br>
 二、考生进入考场必须关闭各种通讯工具。
@@ -139,8 +152,8 @@
     为了严肃考试纪律及学生证的使用，教务处研究决定，每位学生在校期间只能申请办理一次用于考试的临时学生证。申请过的学生，在校期间不得再次申请。    请各位考生携带双证参加考试。如有丢失，请及时办理补办手续。                                                     
 </br></br>教务处  
 					</span>
-					</div>
-					<div class="am-tab-panel am-fade" id="tab3">
+					</div>-->
+					<!--<div class="am-tab-panel am-fade" id="tab3">
 						<span>
 （一）考生进入考场后应按指定的座位就座，并将身份证摆在桌面左上角。证件不全者不准进入考场。迟到15分钟不得入场。</br>
 （二）考生不得携带任何与考核有关的资料进入考场（已经带入的请将其放在考场前面的非考核区域），所有通讯工具必须关闭。考核正式开始后，如在现场发现携带有关资料、或者通讯工具未关闭，一律按作弊处理，试卷作废。</br>
@@ -155,7 +168,7 @@
 <b style="color: red;text-align: center;">******************************************注意事项******************************************</b></br>
 （一）理论知识考核与实际操作考核一项不合格者，在3个月内允许免费补考一次，两项不合格者须重新报考。</br>
 						</span>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</fieldset>

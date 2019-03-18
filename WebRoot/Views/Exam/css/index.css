@@ -1,7 +1,8 @@
 body{
 	padding: 0px;
 	margin: 0px;
-	/*background: darkgray;*/ 
+	background-image: url(/Views/Exam/img/ksbg2.jpg);
+	background-size:cover;
 }
 .info{
 	font-size: 14px;

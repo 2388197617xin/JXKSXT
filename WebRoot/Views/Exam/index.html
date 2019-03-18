@@ -17,7 +17,11 @@
 .success {
 	background-image: url(/Views/Exam/img/success.png);
 }
+
 </style>
+<!--<style type="text/css">
+
+</style>-->
 <script>
 	//填充考生信息
 	$(document).ready(function() {
@@ -335,7 +339,7 @@
 		}
 	};
 </script>
-</style>
+
 </head>
 
 <body>
@@ -349,7 +353,7 @@
 			<div class="ks_lx">
 				<fieldset>
 					<legend id="title">考试类型</legend>
-					<p id="info">驾照考试系统</p>
+					<p id="info">科目一考试</p>
 				</fieldset>
 			</div>
 			<!--
@@ -592,7 +596,7 @@
 			</script>
 			<div class="ad">
 				<fieldset>
-					<legend id="title">广告更精彩</legend>
+					<legend id="title">温馨提示</legend>
 					<p id="ad"
 						style="color: #FF0000; font-size: 20px; font-weight: bold;">驾校考试系统温馨提醒您：90分为合格！</p>
 				</fieldset>
@@ -643,11 +647,13 @@
 			});
 		}
 	</script>
-	<input type="button" value="测试layer" id="test1" onclick="test1()" />
+	<!--<input type="button" value="测试layer" id="test1" onclick="test1()" />
 	<input type="button" value="获取当前分数" id="test2" onclick="test2()" />
 	<input type="button" value="测试最终分数" id="test3" onclick="finalMark()" />
 	<input type="button" value="测试时间" id="test4" onclick="second()" />
-	<input type="button" value="测试获取头像" id="test5" onclick="test3()" /> 
+	<input type="button" value="测试获取头像" id="test5" onclick="test3()" /> -->
+    <input type="button" value="退出考试返回首页" id="test5" onclick="test3()" />
+
 	<script>
 		function test1() {
 			//弹出一个页面层
@@ -659,8 +665,7 @@
 			});
 		};
 		function test3() {
-			var photo = $('#take_photo').attr("src");
-			alert(photo);
+            window.location = "/Views/Home/index.html";
 		}
 
 		function test2() {
